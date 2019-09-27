@@ -8,9 +8,6 @@ this is only the start (will plan on slowly building other components to make a 
 This idea was to keep syntax as simple but flexible as possible.
 
 ---
-#### Default button style
-![default button](https://github.com/Phl3bas/images/blob/master/default.jpg)
----
 #### Example Buttons
 ![example buttons](https://github.com/Phl3bas/images/blob/master/btns.jpg)
 ---
