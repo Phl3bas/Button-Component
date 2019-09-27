@@ -55,6 +55,8 @@ export default {
   transition: all 200ms ease;
   margin: 5px;
   cursor: pointer;
+  background-color: rgb(248, 248, 248);
+  user-select: none;
 }
 
 .btn:hover {
