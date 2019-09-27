@@ -58,16 +58,19 @@ export default {
   border-radius: 5px;
   height: 40px;
   width: 100px;
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.4);
+  padding: 0 010px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.4);
   transition: all 200ms ease;
   margin: 5px;
   cursor: pointer;
   background-color: rgb(248, 248, 248);
+  color: rgb(134, 134, 134);
   user-select: none;
+  padding: 5px;
 }
 
 .btn:hover {
-  box-shadow: 0 3px 3px rgba(0, 0, 0, 0.4);
+  box-shadow: 0 3px 4px rgba(0, 0, 0, 0.4);
   transform: translatey(-1px);
 }
 
@@ -92,41 +95,42 @@ export default {
   border: none;
   background-color: transparent;
   border-radius: 0;
+  color: black;
 }
 
 .red {
   background-color: rgb(235, 77, 77);
-  color: white;
-  text-shadow: 1px 2px 3px rgba(0, 0, 0, 0.3);
+  color: rgb(252, 209, 209);
+  text-shadow: 1px 2px 3px rgb(153, 40, 40);
 }
 
 .blue {
   background-color: rgb(68, 70, 167);
-  color: rgb(255, 255, 255);
-  text-shadow: 1px 2px 3px rgba(0, 0, 0, 0.3);
+  color: rgb(191, 187, 255);
+  text-shadow: 1px 2px 3px rgb(27, 29, 100);
 }
 
 .yellow {
   background-color: rgb(244, 247, 112);
-  color: rgb(60, 61, 54);
-  text-shadow: 1px 2px 3px rgba(0, 0, 0, 0.3);
+  color: rgb(116, 136, 4);
+  text-shadow: 1px 1px 2px rgba(132, 136, 19, 0.849);
 }
 
 .green {
   background-color: rgb(90, 189, 95);
-  color: white;
-  text-shadow: 1px 2px 3px rgba(0, 0, 0, 0.3);
+  color: rgb(210, 255, 205);
+  text-shadow: 1px 2px 3px rgb(32, 112, 36);
 }
 
 .dark {
   background-color: rgb(68, 67, 67);
   color: white;
-  text-shadow: 1px 2px 3px rgba(255, 255, 255, 0.3);
+  text-shadow: 1px 2px 3px rgba(68, 67, 67, 0.5);
 }
 
 .small {
-  height: 35px;
-  width: 60px;
+  height: 30px;
+  width: 40px;
   font-size: 13px;
 }
 
@@ -136,7 +140,6 @@ export default {
 
 .tall {
   height: 60px;
-  font-size: 25px;
 }
 
 .round {
