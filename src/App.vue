@@ -2,11 +2,11 @@
   <div class="container">
     <div>
       <my-btn dark tile>Click Me</my-btn>
-      <my-Btn yellow flat>Home</my-btn>
+      <my-Btn yellow flat tall>Home</my-btn>
       <my-btn green round>About</my-btn>
       <my-btn red small>Sell Now</my-btn>
-      <my-btn blue large>Buy Now</my-btn>
-      <my-btn medium>Contact</my-btn>
+      <my-btn blue tall long>Buy Now</my-btn>
+      <my-btn long>Contact</my-btn>
     </div>
   </div>
 </template>

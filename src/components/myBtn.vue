@@ -7,8 +7,8 @@
     blue : blue,
     dark : dark, 
     green : green,
-    large: large,
-    medium: medium,
+    tall: tall,
+    long: long,
     small: small,
     tile: tile,
     flat : flat,
@@ -31,8 +31,8 @@ export default {
     yellow: Boolean,
     green: Boolean,
     dark: Boolean,
-    large: Boolean,
-    medium: Boolean,
+    tall: Boolean,
+    long: Boolean,
     small: Boolean,
     tile: Boolean,
     flat: Boolean,
@@ -112,14 +112,12 @@ export default {
   font-size: 13px;
 }
 
-.medium {
-  height: 40px;
-  width: 150px;
+.long {
+  width: 200px;
 }
 
-.large {
+.tall {
   height: 60px;
-  width: 200px;
   font-size: 25px;
 }
 
