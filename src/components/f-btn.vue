@@ -24,7 +24,7 @@
 
 <script>
 export default {
-  name: "myBtn",
+  name: "fbtn",
   props: {
     red: Boolean,
     blue: Boolean,

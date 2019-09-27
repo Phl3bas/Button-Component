@@ -1,30 +1,29 @@
 <template>
   <div class="container">
     <div>
-      <my-btn dark tile>Click Me</my-btn>
-      <my-Btn yellow flat tall>Home</my-btn>
-      <my-btn green round>About</my-btn>
-      <my-btn red small>Sell Now</my-btn>
-      <my-btn blue tall long>Buy Now</my-btn>
-      <my-btn long>Contact</my-btn>
+      <fbtn dark tile>Click Me</fbtn>
+      <fbtn yellow flat tall>Home</fbtn>
+      <fbtn green round>About</fbtn>
+      <fbtn red small>Sell Now</fbtn>
+      <fbtn blue tall long>Buy Now</fbtn>
+      <fbtn long>Contact</fbtn>
     </div>
   </div>
 </template>
 
 <script>
-import myBtn from "./components/myBtn";
+import fbtn from "./components/f-btn";
 
 export default {
   name: "App",
   components: {
-    myBtn
+    fbtn
   }
 };
 </script>
 
 <style>
-
-div{
+div {
   display: grid;
   grid-template-columns: repeat(2, auto);
   grid-gap: 30px;
@@ -32,16 +31,14 @@ div{
   justify-items: center;
 }
 
-my-btn{
+my-btn {
   justify-self: center;
 }
 
-.container{
+.container {
   position: absolute;
   top: 50vh;
   left: 50vw;
   transform: translate(-50%, -50%);
 }
-
-
 </style>
