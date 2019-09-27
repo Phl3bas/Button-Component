@@ -91,6 +91,7 @@ export default {
   box-shadow: none;
   border: none;
   background-color: transparent;
+  border-radius: 0;
 }
 
 .red {
