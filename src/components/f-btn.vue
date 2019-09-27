@@ -14,10 +14,14 @@
     flat : flat,
     round : round,
     outline: outline,
-    none: none
+    none: none,
     }"
+    :style="{
+      height: height + 'px',
+      width: width + 'px'
+      }"
   >
-    <span class="inner-text">
+    <span class="inner-text" :style="{fontSize: textsize + 'rem'}">
       <slot/>
     </span>
   </div>
@@ -39,7 +43,10 @@ export default {
     flat: Boolean,
     round: Boolean,
     outline: Boolean,
-    none: Boolean
+    none: Boolean,
+    height: String,
+    width: String,
+    textsize: String
   }
 };
 </script>

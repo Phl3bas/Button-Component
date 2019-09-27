@@ -1,12 +1,12 @@
 <template>
   <div class="container">
     <div>
-      <fbtn dark tile>Click Me</fbtn>
-      <fbtn yellow flat tall>Home</fbtn>
-      <fbtn green round>About</fbtn>
-      <fbtn red small>Sell Now</fbtn>
-      <fbtn blue tall long>Buy Now</fbtn>
-      <fbtn>Contact</fbtn>
+      <fbtn dark flat tile height="70" width="220" textsize="1.5">Click Me</fbtn>
+      <fbtn red long>Home</fbtn>
+      <fbtn green tall>About</fbtn>
+      <fbtn yellow round textsize="1.2">Sell Now</fbtn>
+      <fbtn blue flat small>Buy Now</fbtn>
+      <fbtn none outline textsize=1.2>Contact</fbtn>
     </div>
   </div>
 </template>
