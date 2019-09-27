@@ -13,7 +13,8 @@
     tile: tile,
     flat : flat,
     round : round,
-    outline: outline
+    outline: outline,
+    none: none
     }"
   >
     <span class="inner-text">
@@ -37,7 +38,8 @@ export default {
     tile: Boolean,
     flat: Boolean,
     round: Boolean,
-    outline: Boolean
+    outline: Boolean,
+    none: Boolean
   }
 };
 </script>
@@ -74,6 +76,12 @@ export default {
 .btn:active {
   box-shadow: 0 1px 4px rgba(0, 0, 0, 0.4);
   transform: translatey(0);
+}
+
+.none {
+  box-shadow: none;
+  border: none;
+  background-color: transparent;
 }
 
 .red {

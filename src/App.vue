@@ -6,7 +6,7 @@
       <fbtn green round>About</fbtn>
       <fbtn red small>Sell Now</fbtn>
       <fbtn blue tall long>Buy Now</fbtn>
-      <fbtn long>Contact</fbtn>
+      <fbtn none>Contact</fbtn>
     </div>
   </div>
 </template>
