@@ -6,7 +6,7 @@
       <fbtn green tall>About</fbtn>
       <fbtn yellow round textsize="1.2">Sell Now</fbtn>
       <fbtn blue flat small>Buy Now</fbtn>
-      <fbtn none outline textsize=1.2>Contact</fbtn>
+      <fbtn none outline textsize="1.2">Contact</fbtn>
     </div>
   </div>
 </template>
