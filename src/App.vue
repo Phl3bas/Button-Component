@@ -1,12 +1,20 @@
 <template>
   <div class="container">
     <div>
-      <fbtn dark flat tile height="70" width="220" textsize="1.5">Click Me</fbtn>
-      <fbtn red long>Home</fbtn>
-      <fbtn green tall>About</fbtn>
-      <fbtn yellow round textsize="1.2">Sell Now</fbtn>
-      <fbtn blue flat small>Buy Now</fbtn>
-      <fbtn none outline textsize="1.2">Contact</fbtn>
+      <fbtn>Default</fbtn>
+      <fbtn dark>dark</fbtn>
+      <fbtn red>red</fbtn>
+      <fbtn blue>blue</fbtn>
+      <fbtn yellow>yellow</fbtn>
+      <fbtn green>green</fbtn>
+      <fbtn none>none</fbtn>
+
+      <fbtn outline>outline</fbtn>
+      <fbtn tall>tall</fbtn>
+      <fbtn small>small</fbtn>
+      <fbtn tile>tile</fbtn>
+      <fbtn flat>flat</fbtn>
+      <fbtn long>long</fbtn>
     </div>
   </div>
 </template>
@@ -23,22 +31,22 @@ export default {
 </script>
 
 <style>
-div {
-  display: grid;
-  grid-template-columns: repeat(2, auto);
-  grid-gap: 30px;
-  width: 500px;
-  justify-items: center;
-}
-
-my-btn {
-  justify-self: center;
-}
-
 .container {
   position: absolute;
   top: 50vh;
   left: 50vw;
   transform: translate(-50%, -50%);
+}
+
+div {
+  display: grid;
+  grid-template-columns: repeat(3, 200px);
+  justify-items: center;
+  align-items: center;
+  grid-gap: 10px;
+}
+
+div:last-child {
+  grid-column: 1 / 4;
 }
 </style>
