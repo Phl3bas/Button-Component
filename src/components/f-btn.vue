@@ -52,6 +52,7 @@ export default {
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.4);
   transition: all 200ms ease;
   margin: 5px;
+  cursor: pointer;
 }
 
 .btn:hover {
@@ -72,7 +73,6 @@ export default {
 
 .btn:active {
   box-shadow: 0 1px 4px rgba(0, 0, 0, 0.4);
-  color: black;
   transform: translatey(0);
 }
 
