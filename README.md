@@ -1,14 +1,25 @@
-# Vue-Button-Component: Fennec
-
+# Fennec Button Component
 
 ## A Simple button component for Vue.js made for learning purposes
-
 
 This is a project i started to learn how Vue.js works and how Component frameworks work under the hood. Any suggestions welcome, 
 this is only the start (will plan on slowly building other components to make a full library one day!)
 
 This idea was to keep syntax as simple but flexible as possible.
 
+---
+#### Default button style
+![default button](https://github.com/Phl3bas/images/blob/master/default.jpg)
+---
+#### Example Buttons
+![example buttons](https://github.com/Phl3bas/images/blob/master/btns.jpg)
+---
+#### Template example
+![example code](https://github.com/Phl3bas/images/blob/master/code.jpg)
+---
+#### Copy to components folder and Import to main component
+![example import](https://github.com/Phl3bas/images/blob/master/import.jpg)
+---
 #### Full List of Attributes:
 - `red`
 - `blue`
