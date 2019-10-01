@@ -7,6 +7,8 @@ this is only the start (will plan on slowly building other components to make a 
 
 This idea was to keep syntax as simple but flexible as possible.
 
+as this is purely for learning reasons, installing you will just need to download the fbtn.vue save in components dir and import as normal, not done anything fancy yet! (maybe one day!)
+
 ---
 #### Example Buttons
 ![example buttons](https://github.com/Phl3bas/images/blob/master/btns.jpg)
