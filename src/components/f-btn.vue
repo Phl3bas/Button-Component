@@ -157,5 +157,10 @@ export default {
 .outline {
   border: 2px solid black;
   box-shadow: none;
+  color: black;
 }
+
+//TODO: add multiple outline-classes/props for different colors
+//TODO: add color, text-color and outline-color prop that takes HEX value for further customisation
+//TODO: add fill prop that defaults to 100% height
 </style>
