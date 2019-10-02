@@ -14,14 +14,16 @@
     flat : flat,
     round : round,
     outline: outline,
+    fill: fill,
     none: none,
     }"
     :style="{
-      height: height + 'px',
-      width: width + 'px'
+      height: height,
+      width: width,
+      color: textcolor,
       }"
   >
-    <span class="inner-text" :style="{fontSize: textsize + 'rem'}">
+    <span class="inner-text" :style="{fontSize: textsize}">
       <slot/>
     </span>
   </div>
@@ -44,9 +46,17 @@ export default {
     round: Boolean,
     outline: Boolean,
     none: Boolean,
+    fill: Boolean,
     height: String,
     width: String,
-    textsize: String
+    textsize: String,
+    textcolor: String,
+    outlinecolor: String,
+    bgcolor: String
+  },
+  mounted() {
+    this.outlinecolor ? (this.$el.style.borderColor = this.outlinecolor) : 0;
+    this.bgcolor ? (this.$el.style.backgroundColor = this.bgcolor) : 0;
   }
 };
 </script>
@@ -59,7 +69,7 @@ export default {
   height: 40px;
   width: 100px;
   padding: 0 010px;
-  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.4);
+  box-shadow: 0 2px 3px 1px rgba(0, 0, 0, 0.4);
   transition: all 200ms ease;
   margin: 5px;
   cursor: pointer;
@@ -70,7 +80,7 @@ export default {
 }
 
 .btn:hover {
-  box-shadow: 0 3px 4px rgba(0, 0, 0, 0.4);
+  box-shadow: 0 5px 6px 1px rgba(0, 0, 0, 0.3);
   transform: translatey(-1px);
 }
 
@@ -83,10 +93,11 @@ export default {
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
+  font-weight: bold;
 }
 
 .btn:active {
-  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.4);
+  box-shadow: 0 2px 1px 1px rgba(0, 0, 0, 0.3);
   transform: translatey(0);
 }
 
@@ -96,6 +107,11 @@ export default {
   background-color: transparent;
   border-radius: 0;
   color: black;
+}
+
+.none:hover {
+  box-shadow: none;
+  transform: none;
 }
 
 .red {
@@ -113,7 +129,7 @@ export default {
 .yellow {
   background-color: rgb(244, 247, 112);
   color: rgb(116, 136, 4);
-  text-shadow: 1px 1px 2px rgba(132, 136, 19, 0.849);
+  text-shadow: 1px 1px 3px rgba(132, 136, 19, 0.5);
 }
 
 .green {
@@ -155,9 +171,15 @@ export default {
 }
 
 .outline {
-  border: 2px solid black;
+  border: 2px solid rgba(0, 0, 0, 0.4);
   box-shadow: none;
-  color: black;
+  color: rgba(0, 0, 0, 0.6);
+  font-weight: bold;
+}
+
+.fill {
+  display: inline-block;
+  height: 100%;
 }
 
 /*
