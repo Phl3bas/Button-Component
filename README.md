@@ -32,11 +32,14 @@ as this is purely for learning reasons, installing you will just need to downloa
 - `flat`
 - `round`
 - `outline`
+- `fill`
 - `none`
 - `height`
 - `width`
 - `textsize`
-
+- `bgcolor`
+- `outlinecolor`
+- `textcolor`
 
 #### Colors:
 + `red`: [No Value] sets background style to default red with white text
@@ -103,11 +106,18 @@ width: 200px;
 }
 ```
 
-+ `height`: [String] takes a string representation of desired height will be converted to 'px'
++ `fill`: [No Value] grows the height of the button to 100% of container height
+```
+{
+  height: 100%;
+}
+```
 
-+ `width`: [String] takes a string representation of desired width will be converted to 'px'
++ `height`: [String] takes a string representation of desired height must include value type e.g. px, rem, em
 
-+ `textsize`: [String] takes a string representation of desired fontsize will be converted to 'rem'
++ `width`: [String] takes a string representation of desired width must include value type e.g. px, rem, em
+
++ `textsize`: [String] takes a string representation of desired fontsize must include value type e.g. px, rem, em
 
 
 #### Style:
@@ -146,5 +156,11 @@ none is overridden by any other non value attribute
   border-radius: 0;
 }
 ```
+
+#### Customer colors
+
++ `bgcolor` : [String] takes rgb, rgba or hex color values and sets background color to that value
+- `outlinecolor`: [String] takes rgb, rgba or hex color values and sets border color to that value
+- `textcolor`: [String] takes rgb, rgba or hex color values and sets text color to that value
 
 
