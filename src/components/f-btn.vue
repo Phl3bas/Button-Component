@@ -31,7 +31,7 @@
 
 <script>
 export default {
-  name: "fbtn",
+  name: "fBtn",
   props: {
     red: Boolean,
     blue: Boolean,

@@ -1,37 +1,37 @@
 <template>
   <div class="container">
-    <fbtn>Default</fbtn>
-    <fbtn dark>dark</fbtn>
-    <fbtn red>red</fbtn>
-    <fbtn blue>blue</fbtn>
-    <fbtn yellow>yellow</fbtn>
-    <fbtn green>green</fbtn>
-    <fbtn none>none</fbtn>
+    <f-btn>Default</f-btn>
+    <f-btn dark>dark</f-btn>
+    <f-btn red>red</f-btn>
+    <f-btn blue>blue</f-btn>
+    <f-btn yellow>yellow</f-btn>
+    <f-btn green>green</f-btn>
+    <f-btn none>none</f-btn>
 
-    <fbtn outline>outline</fbtn>
-    <fbtn tall>tall</fbtn>
-    <fbtn small>small</fbtn>
-    <fbtn tile>tile</fbtn>
-    <fbtn flat>flat</fbtn>
-    <fbtn round>round</fbtn>
-    <fbtn fill>fill</fbtn>
-    <fbtn
+    <f-btn outline>outline</f-btn>
+    <f-btn tall>tall</f-btn>
+    <f-btn small>small</f-btn>
+    <f-btn tile>tile</f-btn>
+    <f-btn flat>flat</f-btn>
+    <f-btn round>round</f-btn>
+    <f-btn fill>fill</f-btn>
+    <f-btn
       outline
       outlinecolor="#f0a314"
       textcolor="rgb(219, 120, 2)"
       bgcolor="#e6cb8c"
-    >various color attr</fbtn>
-    <fbtn long>long</fbtn>
+    >various color attr</f-btn>
+    <f-btn long>long</f-btn>
   </div>
 </template>
 
 <script>
-import fbtn from "./components/f-btn";
+import fBtn from "./components/f-btn";
 
 export default {
   name: "App",
   components: {
-    fbtn
+    fBtn: fBtn
   },
   data: () => {
     return {
